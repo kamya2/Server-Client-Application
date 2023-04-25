@@ -1,1 +1,3 @@
- Server-Client-Application
+Server-Client Application
+
+This project is a client-server application where clients can request files from the server. The server searches for the requested files in its directory and returns a tar.gz file containing the files to the client. The application supports multiple clients, and the server, mirror, and client processes must run on different machines and communicate using sockets. The project includes various client commands, such as finding a file, getting files based on size or date created, and getting files based on file types. The client must verify the syntax of the commands, and appropriate messages are printed in case of incorrect syntax or file not found.
